@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Remplacement de contenu avec JavaScript</title>
+</head>
+<body>
+   <h1>Mes <span>cocktails préférés</span></h1>
+   <p>Mojito</p>
+   <p>Gin Fizz</p>
+   <p>Bloody mary</p>
+   <p>Long Island Iced Tea</p>
+   <p>Mais si je ne devais qu'en retenir qu'un : <strong id="cocktail"></strong></p>
+
+   <script>
+      // Sélectionner l'élément avec l'ID 'cocktail'
+      var cocktailElement = document.getElementById("cocktail");
+
+      // Remplacer le contenu de l'élément par "Long Island Iced Tea"
+      cocktailElement.textContent = "Long Island Iced Tea";
+   </script>
+</body>
+</html>

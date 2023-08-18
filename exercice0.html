@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserer dans la page HTML</title>
+</head>
+<body>
+    <button onclick="insertText()">Insérer du texte</button>
+    <div id="output"></div>
+
+    <script>
+        function insertText() {
+            var userInput = prompt("Entrez une chaîne de caractères :");
+            var outputDiv = document.getElementById("output");
+            outputDiv.textContent = userInput;
+        }
+    </script>
+</body>
+</html
